@@ -19,7 +19,7 @@ html {
   --default-color: #101011;
   --white: #ffffff;
   --red: #ff002b;
-  --primary-color: #4446f0;
+  --primary-color: rgb(85,229,245);
   --secondary-color: #f3f4f6;
   --alert-color: #f44336;
   --success-color: #4caf50;

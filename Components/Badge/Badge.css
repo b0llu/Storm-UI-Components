@@ -54,3 +54,20 @@
 
 
 /* ---------------- icon badge -------------- */
+.number {
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 2.5rem;
+  right: -1rem;
+  top: 0;
+  width: 25px;
+}
+
+i {
+  font-size: 5rem;
+}

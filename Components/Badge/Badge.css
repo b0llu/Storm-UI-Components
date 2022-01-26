@@ -68,6 +68,6 @@
   width: 25px;
 }
 
-i {
+.badge > i {
   font-size: 5rem;
 }

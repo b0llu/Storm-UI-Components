@@ -1,0 +1,37 @@
+/* ----- contained button ------- */
+.btn {
+  height: 3.5rem;
+  width: 25rem;
+  margin: 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: 600;
+  border: 1px solid;
+}
+
+.btn-shadow {
+  box-shadow: 2px 2px 5px black;
+}
+
+.primary-btn {
+  background-color: var(--primary-color);
+}
+
+.primary-btn:hover {
+  background-color: #01e6ff;
+  transition: 0.5s ease-in-out;
+}
+
+.secondary-btn {
+  border: 3px solid var(--primary-color);
+}
+
+.secondary-btn:hover {
+  background-color: var(--primary-color);
+  transition: 0.5s ease-in-out;
+}
+
+.disabled-btn {
+  background-color: rgb(80, 79, 79);
+  pointer-events: none;
+}

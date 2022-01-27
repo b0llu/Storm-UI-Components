@@ -37,3 +37,25 @@
   background-color: var(--warning-color);
   color: #000000;
 }
+
+/* ------ outline alert ---------- */
+
+.primary-outline {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.error-outline {
+  border: 1px solid var(--alert-color);
+  color: var(--alert-color);
+}
+
+.success-outline {
+  border: 1px solid var(--success-color);
+  color: var(--success-color);
+}
+
+.warning-outline {
+  border: 1px solid var(--warning-color);
+  color: var(--warning-color);
+}

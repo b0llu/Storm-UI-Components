@@ -35,3 +35,49 @@
   background-color: rgb(80, 79, 79);
   pointer-events: none;
 }
+
+/* ---- outline button---- */
+
+.outline-primary {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.outline-primary:hover {
+  background-color: var(--primary-color);
+  color: black;
+  transition: 0.5s ease-in-out;
+}
+
+.outline-success {
+  color: var(--success-color);
+  border: 1px solid var(--success-color);
+}
+
+.outline-success:hover {
+  background-color: var(--success-color);
+  color: black;
+  transition: 0.5s ease-in-out;
+}
+
+.outline-error {
+  color: var(--alert-color);
+  border: 1px solid var(--alert-color);
+}
+
+.outline-error:hover {
+  background-color: var(--alert-color);
+  color: black;
+  transition: 0.5s ease-in-out;
+}
+
+.outline-warning {
+  color: var(--warning-color);
+  border: 1px solid var(--warning-color);
+}
+
+.outline-warning:hover {
+  background-color: var(--warning-color);
+  color: black;
+  transition: 0.5s ease-in-out;
+}

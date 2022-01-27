@@ -81,3 +81,16 @@
   color: black;
   transition: 0.5s ease-in-out;
 }
+
+/* ---- link button ---- */
+.link-btn {
+  background-color: var(--primary-color);
+}
+
+.link-btn > a {
+  color: #000000;
+}
+
+.link-btn:hover {
+  background-color: #42ddee;
+}

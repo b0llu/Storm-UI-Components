@@ -27,8 +27,7 @@
 }
 
 .card-content {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin: 0rem 1.5rem;
   line-height: 3.5rem;
   letter-spacing: 0.2rem;
   display: flex;
@@ -66,3 +65,16 @@
 }
 
 /* ----- card with text overlay ------ */
+.overlay-bottom {
+  position: absolute;
+  bottom: 0;
+  color: var(--white);
+  margin: 1rem 1.5rem;
+}
+
+.overlay-top {
+  position: absolute;
+  top: 0;
+  color: var(--white);
+  margin: 1rem 1.5rem;
+}

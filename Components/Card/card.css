@@ -46,6 +46,8 @@
 
 .card-text-para {
   font-size: 1.5rem;
+  line-height: 2rem;
+  padding: 1rem 0rem;
 }
 
 .card-content > button {

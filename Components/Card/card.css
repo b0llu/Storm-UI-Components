@@ -97,8 +97,8 @@
 }
 
 .horizontal-card-img {
-  width: 12rem;
-  height: 12rem;
+  min-width: 12rem;
+  min-height: 12rem;
 }
 
 .horizontal-card-text {
@@ -128,7 +128,7 @@
 }
 
 .vertical-card-img {
-  height: 12rem;
+  min-height: 12rem;
   width: inherit;
 }
 

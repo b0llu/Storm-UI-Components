@@ -85,8 +85,10 @@
 /* ---- link button ---- */
 .link-btn {
   height: 3.5rem;
-  width: 10rem;
+  width: auto;
   margin: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   border-radius: 0.5rem;
   cursor: pointer;
   font-weight: 600;
@@ -104,11 +106,13 @@
 
 /* --- icon button ---- */
 .icon-btn {
-  width: 20rem;
+  width: auto;
   height: 5rem;
   font-size: 2.5rem;
   margin: 1.5rem;
   border-radius: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   cursor: pointer;
   border: 1px solid;
   background-color: var(--primary-color);

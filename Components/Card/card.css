@@ -16,8 +16,7 @@
   object-fit: cover;
   height: 100%;
   width: 100%;
-  border-top-left-radius: 0.9rem;
-  border-top-right-radius: 0.9rem;
+  border-radius: 0.9rem;
 }
 
 .card-badge {

@@ -16,8 +16,8 @@
   object-fit: cover;
   height: 100%;
   width: 100%;
-  border-top-left-radius: 0.9rem;
-  border-top-right-radius: 0.9rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
 
 .card-badge {
@@ -97,8 +97,8 @@
   background-color: var(--card-container-bg);
   width: 30rem;
   color: #000000;
-  border-top-left-radius: 0.9rem;
-  border-bottom-left-radius: 0.9rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
 }
 
 .horizontal-card-img {
@@ -130,8 +130,8 @@
   height: 30rem;
   background-color: var(--card-container-bg);
   color: #000000;
-  border-top-left-radius: 0.9rem;
-  border-top-right-radius: 0.9rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
 
 .vertical-card-img {

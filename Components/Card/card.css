@@ -1,1 +1,55 @@
 /* -------- badge card--------- */
+.card-container {
+  width: 30rem;
+  height: auto;
+  color: #000000;
+  background-color: var(--card-container-bg);
+}
+
+.card-img-container {
+  position: relative;
+}
+
+.card-img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.card-badge {
+  position: absolute;
+  top: 1.5rem;
+  left: 0;
+  background-color: var(--primary-color);
+  padding: 0.5rem 1rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.card-content {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  line-height: 3.5rem;
+  letter-spacing: 0.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content > h1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.card-content > h2 {
+  font-size: 3rem;
+}
+
+.card-content > p {
+  font-size: 1.5rem;
+}
+
+.card-content > button {
+  align-self: center;
+  margin: 1rem 0rem;
+  border: none;
+}

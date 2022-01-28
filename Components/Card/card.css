@@ -91,7 +91,6 @@
 .horizontal-card {
   display: flex;
   align-items: center;
-  position: relative;
   background-color: var(--card-container-bg);
   width: 30rem;
   color: #000000;
@@ -118,3 +117,25 @@
 }
 
 /* --------- vertical card --------- */
+
+.vertical-card {
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  height: 30rem;
+  background-color: var(--card-container-bg);
+  color: #000000;
+}
+
+.vertical-card-img {
+  height: 12rem;
+  width: inherit;
+}
+
+.vertical-card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+}

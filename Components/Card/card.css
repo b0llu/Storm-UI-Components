@@ -79,3 +79,10 @@
   color: var(--white);
   margin: 1rem 1.5rem;
 }
+
+/* ------ text only card ---------- */
+
+.text-only {
+  padding: 1rem;
+}
+

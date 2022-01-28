@@ -53,3 +53,14 @@
   margin: 1rem 0rem;
   border: none;
 }
+
+/* ----- card dismiss----- */
+.dismiss {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+/* ----- card with text overlay ------ */

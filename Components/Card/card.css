@@ -10,14 +10,14 @@
 .card-img-container {
   position: relative;
   display: flex;
-  border-top-left-radius: 0.9rem;
-  border-top-right-radius: 0.9rem;
 }
 
 .card-img {
   object-fit: cover;
   height: 100%;
   width: 100%;
+  border-top-left-radius: 0.9rem;
+  border-top-right-radius: 0.9rem;
 }
 
 .card-badge {

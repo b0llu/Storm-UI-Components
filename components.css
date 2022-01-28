@@ -2,6 +2,8 @@
 
 @import url('./Components/Avatar/Avatar.css');
 @import url('./Components/Badge/Badge.css');
+@import url('./Components/Alert/Alert.css');
+@import url('./Components/Button/Button.css');
 
 * {
   margin: 0;
@@ -9,20 +11,30 @@
   box-sizing: border-box;
 }
 
+button {
+  font-family: inherit;
+}
+
+a {
+  font-family: inherit;
+}
+
 html {
   font-size: 62.5%;
 }
 
 :root {
-  --default-color: #0b0b0c;
+  --default-color: #101011;
   --white: #ffffff;
   --red: #ff002b;
-  --primary-color: #4446f0;
-  --secondary-color: #f3f4f6;
-  --alert-color: #f44336;
+  --primary-color: #55E5F5;
+  --secondary-color: #c3c5c7;
+  --alert-color: #e65147;
   --success-color: #4caf50;
   --warning-color: #ff9800;
   --nav-bg-color: #272727;
+  --header-color: #238ac5;
+  --content-color: #b6bab3;
 }
 
 body {

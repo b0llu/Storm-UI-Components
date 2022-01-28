@@ -11,6 +11,14 @@
   box-sizing: border-box;
 }
 
+button {
+  font-style: inherit;
+}
+
+a {
+  font-style: inherit;
+}
+
 html {
   font-size: 62.5%;
 }

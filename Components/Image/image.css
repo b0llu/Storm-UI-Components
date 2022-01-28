@@ -3,3 +3,11 @@
   height: 15rem;
   width: 15rem;
 }
+
+/* -------------- round image ----------- */
+
+.round-img {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+}

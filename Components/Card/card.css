@@ -3,12 +3,15 @@
   width: 30rem;
   height: auto;
   color: #000000;
+  border-radius: 1rem;
   background-color: var(--card-container-bg);
 }
 
 .card-img-container {
   position: relative;
   display: flex;
+  border-top-left-radius: 0.9rem;
+  border-top-right-radius: 0.9rem;
 }
 
 .card-img {

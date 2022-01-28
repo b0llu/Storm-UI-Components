@@ -86,3 +86,32 @@
   padding: 1rem;
 }
 
+/* ---- horizontal card----- */
+
+.horizontal-card {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.horizontal-card-img {
+  width: 12rem;
+  height: 12rem;
+}
+
+.horizontal-card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.horizontal-card-text > h1 {
+  font-size: 4rem;
+}
+
+.horizontal-card-text > h2 {
+  font-size: 2rem;
+}
+
+/* --------- vertical card --------- */

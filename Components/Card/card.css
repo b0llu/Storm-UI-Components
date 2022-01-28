@@ -62,15 +62,16 @@
 /* ----- card dismiss----- */
 .dismiss {
   position: absolute;
-  top: 1.5rem;
-  right: 1.5rem;
+  top: 1rem;
+  right: 1rem;
   color: var(--secondary-color);
   cursor: pointer;
   padding: 1rem;
+  border-radius: 50%;
 }
 
 .dismiss:hover {
-  background-color: var(--card-container-bg);
+  background-color: var(--secondary-color);
 }
 
 /* ----- card with text overlay ------ */

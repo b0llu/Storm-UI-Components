@@ -97,8 +97,8 @@
 }
 
 .horizontal-card-img {
-  min-width: 12rem;
-  min-height: 12rem;
+  width: 12rem;
+  height: 12rem;
 }
 
 .horizontal-card-text {

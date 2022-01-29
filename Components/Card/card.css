@@ -91,8 +91,8 @@
 
 .card-text-overlay{
     position: absolute;
-    bottom: 2rem;
-    left: 2rem;
+    bottom: 1rem;
+    left: 1rem;
     color: white;
 }
 

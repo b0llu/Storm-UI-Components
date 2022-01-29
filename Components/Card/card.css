@@ -99,7 +99,7 @@
 
 /* vertical card */
 .card-vertical{
-    width: 15rem;
+    width: 18rem;
     background-color: var(--card-container-bg);
     color: #000000;
     border-radius: 0.5rem;
@@ -108,6 +108,19 @@
 .card-vertical > img {
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
+}
+
+/* horizontal card */
+.card-horizontal {
+  display: flex;
+  background-color: var(--card-container-bg);
+  height: 15rem;
+  color: #000000;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
 }
 
 /* ------- box shadow ----------- */

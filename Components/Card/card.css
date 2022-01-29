@@ -114,7 +114,8 @@
 .card-horizontal {
   display: flex;
   background-color: var(--card-container-bg);
-  min-height: 15rem;
+  height: 15rem;
+  width: 30rem;
   color: #000000;
 }
 

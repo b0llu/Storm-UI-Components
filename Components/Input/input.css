@@ -21,6 +21,7 @@
 
 .err-msg {
   color: var(--alert-color);
+  margin-top: 1rem;
 }
 
 .input-group.err > input {

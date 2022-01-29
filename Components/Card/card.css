@@ -97,6 +97,19 @@
     color: white;
 }
 
+/* vertical card */
+.card-vertical{
+    width: 15rem;
+    background-color: var(--card-container-bg);
+    color: #000000;
+    border-radius: 0.5rem;
+}
+
+.card-vertical > img {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
 /* ------- box shadow ----------- */
 
 .card-shadow {

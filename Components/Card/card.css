@@ -100,7 +100,7 @@
 
 /* ---- horizontal card----- */
 
-/* .horizontal-card {
+.horizontal-card {
   display: flex;
   align-items: center;
   background-color: var(--card-container-bg);
@@ -132,7 +132,7 @@
 
 /* --------- vertical card --------- */
 
-/* .vertical-card {
+.vertical-card {
   display: flex;
   flex-direction: column;
   width: 15rem;
@@ -154,7 +154,7 @@
   align-items: center;
   justify-content: center;
   height: inherit;
-} */
+}
 
 /* ------- box shadow ----------- */
 

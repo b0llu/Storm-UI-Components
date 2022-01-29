@@ -114,14 +114,17 @@
 .card-horizontal {
   display: flex;
   background-color: var(--card-container-bg);
-  height: 15rem;
+  min-height: 15rem;
   color: #000000;
+}
+
+.card-horizontal > image {
+  width: 50%;
 }
 
 .title-container {
   display: flex;
   flex-direction: column;
-  width: 70%;
 }
 
 /* ------- box shadow ----------- */

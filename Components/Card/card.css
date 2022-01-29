@@ -89,7 +89,7 @@
 /* ----- card with text overlay ------ */
 .card-text-overlay{
     position: absolute;
-    top: 9rem;
+    top: 5rem;
     color: white;
 }
 

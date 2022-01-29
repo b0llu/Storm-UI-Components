@@ -20,22 +20,22 @@
 
 .primary-alert {
   background-color: var(--primary-color);
-  color: #000000;
+  color: var(--text-color);
 }
 
 .error-alert {
   background-color: var(--alert-color);
-  color: #000000;
+  color: var(--text-color);
 }
 
 .success-alert {
   background-color: var(--success-color);
-  color: #000000;
+  color: var(--text-color);
 }
 
 .warning-alert {
   background-color: var(--warning-color);
-  color: #000000;
+  color: var(--text-color);
 }
 
 /* ------ outline alert ---------- */

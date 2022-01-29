@@ -2,7 +2,7 @@
 .card-container {
   width: 30rem;
   height: auto;
-  color: #000000;
+  color: var(--text-color);
   border-radius: 1rem;
   background-color: var(--card-container-bg);
 }
@@ -105,7 +105,7 @@
   align-items: center;
   background-color: var(--card-container-bg);
   width: 30rem;
-  color: #000000;
+  color: var(--text-color);
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
 }
@@ -138,7 +138,7 @@
   width: 15rem;
   height: 30rem;
   background-color: var(--card-container-bg);
-  color: #000000;
+  color: var(--text-color);
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }

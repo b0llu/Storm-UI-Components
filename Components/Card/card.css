@@ -118,9 +118,14 @@
   color: #000000;
 }
 
+.card-horizontal > img {
+  flex-grow: 1;
+}
+
 .title-container {
   display: flex;
   flex-direction: column;
+  flex-grow: 2;
 }
 
 /* ------- box shadow ----------- */

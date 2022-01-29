@@ -27,6 +27,7 @@
 .input-group.err > input {
   border: 1px solid var(--alert-color);
 }
+
 .input-w {
     width: 40rem;
 }

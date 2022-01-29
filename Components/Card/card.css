@@ -46,13 +46,15 @@
   font-size: 2rem;
   font-weight: 400;
   margin-left: 1rem;
-  margin-bottom: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .card-subtext {
   font-size: 3rem;
   margin-left: 1rem;
-  margin-bottom: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .card-text-para {
@@ -60,7 +62,8 @@
   line-height: 2rem;
   padding: 1rem 0rem;
   margin-left: 1rem;
-  margin-bottom: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .card-content > button {

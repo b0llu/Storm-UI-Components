@@ -8,7 +8,6 @@
 
 .input-group > input {
   margin: 1rem 0;
-  width: 40rem;
   padding: 1rem;
 }
 
@@ -26,4 +25,8 @@
 
 .input-group.err > input {
   border: 1px solid var(--alert-color);
+}
+
+.input-w {
+    width: 40rem;
 }

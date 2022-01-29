@@ -84,9 +84,15 @@
 }
 
 /* ----- card with text overlay ------ */
+.img-container {
+  position: relative;
+  display: flex;
+}
+
 .card-text-overlay{
     position: absolute;
-    top: 5rem;
+    bottom: 2rem;
+    left: 2rem;
     color: white;
 }
 

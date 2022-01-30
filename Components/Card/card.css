@@ -1,73 +1,80 @@
-/* -------- badge card--------- */
-.card-container {
-  width: 30rem;
-  height: auto;
-  color: var(--text-color);
-  border-radius: 1rem;
-  background-color: var(--card-container-bg);
+.card-container{
+    width:25rem;
+    padding: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: var(--card-container-bg);
+    border-radius: 0.4rem;
+    position: relative;
+    color: #000000;
 }
 
 .card-container:hover {
   background-color: #b6b3b3;
 }
 
-.card-img-container {
-  position: relative;
+.card-btn {
   display: flex;
+  gap: 1rem;
 }
 
-.card-img {
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
+/* title of card */
+
+.card-title{
+  font-size: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
 }
 
+/* subtitle of card */
+.card-subtitle{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* description of card */
+.card-description{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 1rem 0rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+
+/* card image */
+.card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.img-container{
+    position: relative;
+}
+
+/* card badge */
 .card-badge {
   position: absolute;
   top: 1.5rem;
   left: 0;
+  color: #000000;
   background-color: var(--primary-color);
   padding: 0.5rem 1rem;
   border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
 }
 
-.card-content {
-  margin: 0rem 1.5rem;
-  line-height: 3.5rem;
-  letter-spacing: 0.2rem;
-  display: flex;
-  flex-direction: column;
-}
-
-.card-text {
-  font-size: 2rem;
-  font-weight: 400;
-}
-
-.card-subtext {
-  font-size: 3rem;
-}
-
-.card-text-para {
-  font-size: 1.5rem;
-  line-height: 2rem;
-  padding: 1rem 0rem;
-}
-
-.card-content > button {
-  align-self: center;
-  margin: 1rem 0rem;
-  border: none;
-}
-
 /* ----- card dismiss----- */
 .dismiss {
   position: absolute;
-  top: 1.5rem;
-  right: 1.5rem;
+  top: 2rem;
+  right: 2rem;
   color: var(--secondary-color);
   cursor: pointer;
 }
@@ -78,82 +85,43 @@
 }
 
 /* ----- card with text overlay ------ */
-.overlay-bottom {
-  position: absolute;
-  bottom: 0;
-  color: var(--white);
-  margin: 1rem 1.5rem;
-}
-
-.overlay-top {
-  position: absolute;
-  top: 0;
-  color: var(--white);
-  margin: 1rem 1.5rem;
-}
-
-/* ------ text only card ---------- */
-
-.text-only {
-  padding: 1rem;
-}
-
-/* ---- horizontal card----- */
-
-.horizontal-card {
+.img-container {
+  position: relative;
   display: flex;
-  align-items: center;
+}
+
+.card-text-overlay{
+    position: absolute;
+    bottom: 0.2rem;
+    left: 0.2rem;
+    color: white;
+}
+
+/* vertical card */
+.card-vertical{
+    width: 18rem;
+    background-color: var(--card-container-bg);
+    color: #000000;
+    border-radius: 0.5rem;
+}
+
+.card-vertical > img {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+/* horizontal card */
+.card-horizontal {
+  display: flex;
   background-color: var(--card-container-bg);
-  width: 30rem;
-  color: var(--text-color);
-  border-top-left-radius: 1rem;
-  border-bottom-left-radius: 1rem;
+  height: 15rem;
+  width: 35rem;
+  color: #000000;
 }
 
-.horizontal-card-img {
-  width: 12rem;
-  height: 12rem;
-}
-
-.horizontal-card-text {
+.title-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin: auto;
-}
-
-.horizontal-card-text > h1 {
-  font-size: 4rem;
-}
-
-.horizontal-card-text > h2 {
-  font-size: 2rem;
-}
-
-/* --------- vertical card --------- */
-
-.vertical-card {
-  display: flex;
-  flex-direction: column;
-  width: 15rem;
-  height: 30rem;
-  background-color: var(--card-container-bg);
-  color: var(--text-color);
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-}
-
-.vertical-card-img {
-  min-height: 12rem;
-  width: inherit;
-}
-
-.vertical-card-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: inherit;
 }
 
 /* ------- box shadow ----------- */

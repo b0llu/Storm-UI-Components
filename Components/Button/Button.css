@@ -45,7 +45,7 @@
 
 .outline-primary:hover {
   background-color: var(--primary-color);
-  color: black;
+  color: var(--text-color);
   transition: 0.5s ease-in-out;
 }
 
@@ -56,7 +56,7 @@
 
 .outline-success:hover {
   background-color: var(--success-color);
-  color: black;
+  color: var(--text-color);
   transition: 0.5s ease-in-out;
 }
 
@@ -67,7 +67,7 @@
 
 .outline-error:hover {
   background-color: var(--alert-color);
-  color: black;
+  color: var(--text-color);
   transition: 0.5s ease-in-out;
 }
 
@@ -78,7 +78,7 @@
 
 .outline-warning:hover {
   background-color: var(--warning-color);
-  color: black;
+  color: var(--text-color);
   transition: 0.5s ease-in-out;
 }
 
@@ -97,7 +97,7 @@
 }
 
 .link-btn > a {
-  color: #000000;
+  color: var(--text-color);
 }
 
 .link-btn:hover {

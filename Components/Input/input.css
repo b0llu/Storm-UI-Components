@@ -1,0 +1,33 @@
+/* -------- label input--------- */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+  margin: 2rem 1rem;
+}
+
+.input-group > input {
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.input-group > input:focus {
+  outline: none;
+}
+
+.err {
+  color: var(--alert-color);
+}
+
+.err-msg {
+  color: var(--alert-color);
+  margin-top: 1rem;
+}
+
+.input-group.err > input {
+  border: 1px solid var(--alert-color);
+}
+
+.input-w {
+    width: 30rem;
+}

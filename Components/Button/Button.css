@@ -18,7 +18,7 @@
 }
 
 .primary-btn:hover {
-  background-color: #01e6ff;
+  background-color: var(--primary-color-dark);
   transition: 0.5s ease-in-out;
 }
 
@@ -101,7 +101,7 @@
 }
 
 .link-btn:hover {
-  background-color: #42ddee;
+  background-color: var(--primary-color-dark);
 }
 
 /* --- icon button ---- */
@@ -122,6 +122,10 @@
   margin-right: 1rem;
 }
 
+.icon-btn {
+  background-color: var(--primary-color-dark);
+}
+
 /* --- action button ---- */
 
 .action-btn {
@@ -133,4 +137,8 @@
   cursor: pointer;
   border: none;
   background-color: var(--primary-color);
+}
+
+.action-btn.hover {
+  background-color: var(--primary-color-dark);
 }

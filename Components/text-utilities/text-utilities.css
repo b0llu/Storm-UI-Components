@@ -27,3 +27,23 @@
   font-size: 4rem;
 }
 
+/* colored text */
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+.text-success {
+  color: var(--success-color);
+}
+
+.text-error {
+  color: var(--alert-color);
+}
+
+.text-warning {
+  color: var(--warning-color);
+}

@@ -1,5 +1,5 @@
 /* text-sizes */
-.text-size {
+.text-container {
   display: flex;
   flex-direction: column;
   align-items: center;

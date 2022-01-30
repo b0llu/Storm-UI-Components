@@ -1,0 +1,70 @@
+/* text-sizes */
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.x-sm-text {
+  font-size: 1rem;
+}
+
+.sm-text {
+  font-size: 1.5rem;
+}
+
+.normal-text {
+  font-size: 2rem;
+}
+
+.lg-text {
+  font-size: 3rem;
+}
+
+.x-lg-text {
+  font-size: 4rem;
+}
+
+/* colored text */
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+.text-success {
+  color: var(--success-color);
+}
+
+.text-error {
+  color: var(--alert-color);
+}
+
+.text-warning {
+  color: var(--warning-color);
+}
+
+/* aligned text */
+
+.align-container {
+  width: 30rem;
+  background-color: var(--card-container-bg);
+  color: var(--text-color);
+  padding: 1rem;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.left-text {
+  text-align: left;
+}
+
+.right-text {
+  text-align: right;
+}

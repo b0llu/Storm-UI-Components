@@ -1,0 +1,136 @@
+/* ----- contained button ------- */
+.btn {
+  height: 3.5rem;
+  width: 25rem;
+  margin: 0.5rem 0rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: 600;
+  border: 1px solid;
+}
+
+.btn-shadow {
+  box-shadow: 2px 2px 5px black;
+}
+
+.primary-btn {
+  background-color: var(--primary-color);
+}
+
+.primary-btn:hover {
+  background-color: #01e6ff;
+  transition: 0.5s ease-in-out;
+}
+
+.secondary-btn {
+  border: 3px solid var(--primary-color);
+}
+
+.secondary-btn:hover {
+  background-color: var(--primary-color);
+  transition: 0.5s ease-in-out;
+}
+
+.disabled-btn {
+  background-color: rgb(80, 79, 79);
+  pointer-events: none;
+}
+
+/* ---- outline button---- */
+
+.outline-primary {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.outline-primary:hover {
+  background-color: var(--primary-color);
+  color: black;
+  transition: 0.5s ease-in-out;
+}
+
+.outline-success {
+  color: var(--success-color);
+  border: 1px solid var(--success-color);
+}
+
+.outline-success:hover {
+  background-color: var(--success-color);
+  color: black;
+  transition: 0.5s ease-in-out;
+}
+
+.outline-error {
+  color: var(--alert-color);
+  border: 1px solid var(--alert-color);
+}
+
+.outline-error:hover {
+  background-color: var(--alert-color);
+  color: black;
+  transition: 0.5s ease-in-out;
+}
+
+.outline-warning {
+  color: var(--warning-color);
+  border: 1px solid var(--warning-color);
+}
+
+.outline-warning:hover {
+  background-color: var(--warning-color);
+  color: black;
+  transition: 0.5s ease-in-out;
+}
+
+/* ---- link button ---- */
+.link-btn {
+  height: 3.5rem;
+  width: auto;
+  margin: 1.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: 600;
+  border: 1px solid;
+  background-color: var(--primary-color);
+}
+
+.link-btn > a {
+  color: #000000;
+}
+
+.link-btn:hover {
+  background-color: #42ddee;
+}
+
+/* --- icon button ---- */
+.icon-btn {
+  width: auto;
+  height: 5rem;
+  font-size: 2.5rem;
+  margin: 1.5rem;
+  border-radius: 0.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  cursor: pointer;
+  border: 1px solid;
+  background-color: var(--primary-color);
+}
+
+.icon-btn > i {
+  margin-right: 1rem;
+}
+
+/* --- action button ---- */
+
+.action-btn {
+  width: 5rem;
+  height: 5rem;
+  font-size: 2rem;
+  margin: 1.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  background-color: var(--primary-color);
+}

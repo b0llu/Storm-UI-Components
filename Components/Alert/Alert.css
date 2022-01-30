@@ -1,0 +1,43 @@
+/* ------- alert--------- */
+
+/* ----------- simple alert ------------- */
+
+
+.alert {
+  align-items: center;
+  border-radius: 0.4rem;
+  display: flex;
+  height: 4.5rem;
+  justify-content: center;
+  margin: 0.5rem;
+  width: 30rem;
+  letter-spacing: 0.2rem;
+}
+
+.alert-box-shadow {
+  box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.15);
+}
+
+.primary-alert {
+  background-color: var(--primary-color);
+  color: #000000;
+}
+
+.error-alert {
+  background-color: var(--alert-color);
+  color: #000000;
+}
+
+.success-alert {
+  background-color: var(--success-color);
+  color: #000000;
+}
+
+.warning-alert {
+  background-color: var(--warning-color);
+  color: #000000;
+}
+
+/* ------ outline alert ---------- */
+
+/* used same as buttons */

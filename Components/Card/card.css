@@ -124,6 +124,10 @@
   flex-direction: column;
 }
 
+.card-img.horz-img {
+  width: 50%;
+}
+
 /* ------- box shadow ----------- */
 
 .card-shadow {

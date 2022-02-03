@@ -10,10 +10,6 @@
     color: #000000;
 }
 
-.card-container:hover {
-  background-color: #b6b3b3;
-}
-
 .card-btn {
   display: flex;
   gap: 1rem;

@@ -28,6 +28,10 @@
   border: 1px solid var(--alert-color);
 }
 
+.input-group label {
+  color: var(--icon-color);
+}
+
 .input-w {
     width: 30rem;
 }

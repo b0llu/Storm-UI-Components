@@ -10,10 +10,6 @@
     color: #000000;
 }
 
-.card-container:hover {
-  background-color: #b6b3b3;
-}
-
 .card-btn {
   display: flex;
   gap: 1rem;
@@ -115,13 +111,17 @@
   display: flex;
   background-color: var(--card-container-bg);
   height: 15rem;
-  width: 35rem;
+  width: 30rem;
   color: #000000;
 }
 
 .title-container {
   display: flex;
   flex-direction: column;
+}
+
+.card-img.horz-img {
+  width: 50%;
 }
 
 /* ------- box shadow ----------- */

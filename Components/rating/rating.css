@@ -1,0 +1,18 @@
+/* rating */
+
+.rating-star-container {
+  color: var(--white);
+}
+
+.rating-star-container i {
+  margin-right: 0.3rem;
+  margin: 1rem 0;
+}
+
+.icon-active {
+  color: var(--primary-color);
+}
+
+.rating-star-icon:hover {
+  color: var(--primary-color);
+}

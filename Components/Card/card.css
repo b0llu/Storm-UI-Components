@@ -128,5 +128,5 @@
 /* ------- box shadow ----------- */
 
 .card-shadow {
-  box-shadow: 4px 4px 12px (0, 0, 0, 24%);
+  box-shadow: 4px 4px 12px (0, 0, 0, 0.241);
 }

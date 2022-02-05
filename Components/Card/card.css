@@ -135,14 +135,14 @@
 .card-container.product-card {
   padding: 0rem;
   margin: 2rem;
-  border-radius: 0.5rem;
+  border-radius: 5px;
   background-color: var(--card-container-bg);
   width: 25rem;
 }
 
 .product-card .card-img {
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .product-card .card-btn .btn {
@@ -163,8 +163,8 @@
   font-size: 1.6rem;
   background-color: #3da4df;
   border: none;
-  border-bottom-left-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   height: 5.5rem;
 }
 
@@ -176,7 +176,7 @@
 .product-card .card-title,
 .product-card .card-subtitle,
 .product-card .card-description {
-  margin-left: 0.5rem;
+  margin-left: 5px;
 }
 
 .product-card h1 {
@@ -194,8 +194,4 @@
 .product-card h1 i:hover {
   color: var(--alert-color);
   transition: 0.2s ease-in-out;
-}
-
-.product-card {
-  
 }

@@ -1,46 +1,46 @@
 .card-container {
   width: 25rem;
-  padding: 0.9rem;
+  padding: 9px;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 5px;
   background-color: var(--card-container-bg);
-  border-radius: 0.4rem;
+  border-radius: 4px;
   position: relative;
   color: #000000;
 }
 
 .card-btn {
   display: flex;
-  gap: 1rem;
+  gap: 10px;
 }
 
 /* title of card */
 
 .card-title {
   font-size: 3rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-bottom: 0.5rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
 }
 
 /* subtitle of card */
 .card-subtitle {
   font-size: 2rem;
   font-weight: 400;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-bottom: 0.5rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
 }
 
 /* description of card */
 .card-description {
   font-size: 1.5rem;
   line-height: 2rem;
-  padding: 1rem 0rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-bottom: 0.5rem;
+  padding: 10px 0rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
 }
 
 
@@ -62,9 +62,9 @@
   left: 0;
   color: #000000;
   background-color: var(--primary-color);
-  padding: 0.5rem 1rem;
-  border-top-right-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
+  padding: 5px 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 /* ----- card dismiss----- */
@@ -99,12 +99,12 @@
   width: 18rem;
   background-color: var(--card-container-bg);
   color: #000000;
-  border-radius: 0.5rem;
+  border-radius: 5px;
 }
 
 .card-vertical>img {
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 /* horizontal card */

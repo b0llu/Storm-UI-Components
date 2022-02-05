@@ -132,12 +132,12 @@
 }
 
 /* Ecommerce Card */
-.product-card {
+.card-container.product-card {
   padding: 0rem;
   margin: 2rem;
   border-radius: 0.5rem;
   background-color: var(--card-container-bg);
-  width: 30rem;
+  width: 25rem;
 }
 
 .product-card .card-img {

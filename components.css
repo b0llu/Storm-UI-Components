@@ -37,7 +37,7 @@ html {
   font-size: 62.5%;
 }
 
-:root {
+html[data-theme='light'] {
   --default-color: #e8ecee;
   --for-theme: #171616;
   --white: #ffffff;
@@ -56,6 +56,26 @@ html {
   --for-quiz: #f0f0f0;
   --for-answer: rgb(214, 210, 210);
 }
+
+html[data-theme='dark'] {
+  --default-color: #101011;
+  --for-theme: #ffffff;
+  --primary-color: #55E5F5;
+  --primary-color-dark: #05cddf;
+  --secondary-color: #c3c5c7;
+  --alert-color: #e65147;
+  --success-color: #4caf50;
+  --warning-color: #ff9800;
+  --nav-bg-color: #272727;
+  --header-color: #238ac5;
+  --content-color: #b6bab3;
+  --card-container-bg: #f0f0f0;
+  --text-color: #1c1b1b;
+  --icon-color: #b6bab3;
+  --for-quiz: #19212c;
+  --for-answer: rgb(214, 210, 210);
+}
+
 
 body {
   background-color: var(--default-color);

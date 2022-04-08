@@ -1,19 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-@import url('./Components/Avatar/Avatar.css');
-@import url('./Components/Badge/Badge.css');
-@import url('./Components/Alert/Alert.css');
-@import url('./Components/Button/Button.css');
-@import url('./Components/Card/card.css');
-@import url('./Components/Image/image.css');
-@import url('./Components/Input/input.css');
-@import url('./Components/text-utilities/text-utilities.css');
-@import url('./Components/lists/lists.css');
-@import url('./Components/navigation/navigation.css');
-@import url('./Components/modal/modal.css');
-@import url('./Components/rating/rating.css');
-@import url('./Components/toast/toast.css');
-@import url('./Components/grid/grid.css');
+@import url("./Components/Avatar/Avatar.css");
+@import url("./Components/Badge/Badge.css");
+@import url("./Components/Alert/Alert.css");
+@import url("./Components/Button/Button.css");
+@import url("./Components/Card/card.css");
+@import url("./Components/Image/image.css");
+@import url("./Components/Input/input.css");
+@import url("./Components/text-utilities/text-utilities.css");
+@import url("./Components/lists/lists.css");
+@import url("./Components/navigation/navigation.css");
+@import url("./Components/modal/modal.css");
+@import url("./Components/rating/rating.css");
+@import url("./Components/toast/toast.css");
+@import url("./Components/grid/grid.css");
+
+:root {
+  --default-color: #e8ecee;
+  --for-theme: #171616;
+  --white: #ffffff;
+  --primary-color: #238ac5;
+  --primary-color-dark: #66e8f6;
+  --secondary-color: #c3c5c7;
+  --alert-color: #e65147;
+  --success-color: #4caf50;
+  --warning-color: #ff9800;
+  --nav-bg-color: #272727;
+  --header-color: #238ac5;
+  --content-color: #000000;
+  --card-container-bg: #f0f0f0;
+  --text-color: #000000;
+  --icon-color: #ffffff;
+  --for-quiz: #f0f0f0;
+  --for-answer: rgb(214, 210, 210);
+}
 
 * {
   margin: 0;
@@ -37,7 +57,7 @@ html {
   font-size: 62.5%;
 }
 
-html[data-theme='light'] {
+html[data-theme="light"] {
   --default-color: #e8ecee;
   --for-theme: #171616;
   --white: #ffffff;
@@ -57,10 +77,10 @@ html[data-theme='light'] {
   --for-answer: rgb(214, 210, 210);
 }
 
-html[data-theme='dark'] {
+html[data-theme="dark"] {
   --default-color: #101011;
   --for-theme: #ffffff;
-  --primary-color: #55E5F5;
+  --primary-color: #55e5f5;
   --primary-color-dark: #05cddf;
   --secondary-color: #c3c5c7;
   --alert-color: #e65147;
@@ -75,7 +95,6 @@ html[data-theme='dark'] {
   --for-quiz: #19212c;
   --for-answer: rgb(214, 210, 210);
 }
-
 
 body {
   background-color: var(--default-color);

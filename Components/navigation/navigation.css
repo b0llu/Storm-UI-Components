@@ -5,7 +5,7 @@
   justify-content: center;
   width: 100%;
   background-color: var(--card-container-bg);
-  color: var(--text-color);
+  color: var(--content-color);
   padding: 1rem;
   border-radius: 0.5rem;
 }

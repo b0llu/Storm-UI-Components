@@ -1,7 +1,7 @@
 /* rating */
 
 .rating-star-container {
-  color: var(--white);
+  color: var(--content-color);
 }
 
 .rating-star-container i {

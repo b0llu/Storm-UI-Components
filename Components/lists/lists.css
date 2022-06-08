@@ -3,7 +3,7 @@
 .container-list {
   list-style-type: none;
   background-color: var(--card-container-bg);
-  color: var(--text-color);
+  color: var(--content-color);
   width: 30rem;
   padding: 1rem;
   line-height: 3rem;
@@ -12,7 +12,7 @@
 }
 
 .list-title {
-  border-bottom: 1px solid var(--text-color);
+  border-bottom: 1px solid var(--content-color);
   padding: 1.5rem;
   margin-bottom: 1rem;
 }

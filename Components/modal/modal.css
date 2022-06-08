@@ -24,18 +24,18 @@
 
 
 .modal-container a {
-  color: var(--text-color);
+  color: var(--content-color);
 }
 
 .modal-container i {
   font-size: 2rem;
-  color: var(--text-color);
+  color: var(--content-color);
 }
 
 .text-container {
   font-size: 3rem;
   background-color: var(--card-container-bg);
-  color: var(--text-color);
+  color: var(--content-color);
   padding: 3rem;
   border-radius: 1rem;
 }

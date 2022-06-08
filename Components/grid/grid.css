@@ -14,7 +14,7 @@
     padding: 2rem;
     gap: 1rem;
     background-color: var(--card-container-bg);
-    color: var(--text-color);
+    color: var(--content-color);
     border-radius: 5px;
 }
 
@@ -24,7 +24,7 @@
     padding: 2rem;
     gap: 1rem;
     background-color: var(--card-container-bg);
-    color: var(--text-color);
+    color: var(--content-color);
     border-radius: 5px;
 }
 
@@ -35,7 +35,7 @@
     padding: 2rem;
     gap: 1rem;
     background-color: var(--card-container-bg);
-    color: var(--text-color);
+    color: var(--content-color);
     border-radius: 5px;
 }
 
@@ -46,6 +46,6 @@
     padding: 2rem;
     gap: 1rem;
     background-color: var(--card-container-bg);
-    color: var(--text-color);
+    color: var(--content-color);
     border-radius: 5px;
 }

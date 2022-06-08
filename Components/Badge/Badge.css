@@ -57,7 +57,7 @@
 .number {
   background-color: var(--primary-color);
   border-radius: 50%;
-  color: var(--text-color);
+  color: var(--content-color);
   display: flex;
   align-items: center;
   justify-content: center;

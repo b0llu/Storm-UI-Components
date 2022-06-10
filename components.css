@@ -75,6 +75,7 @@ html[data-theme="dark"] {
   --icon-color: #b6bab3;
   --for-quiz: #19212c;
   --for-answer: rgb(214, 210, 210);
+  --white: #1c1b1b;
 }
 
 body {
